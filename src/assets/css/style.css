@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 12px;
 }
 
 body {
@@ -9,8 +10,9 @@ body {
   flex-direction: row;
   width: 100%;
   height: 100vh;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Archivo', sans-serif; 
 }
+
 
 .flex-box-left {
   flex: 50%;
@@ -49,6 +51,14 @@ body {
   flex-direction: column;
 
   gap: 15px;
+}
+
+h2{
+  font-size: 2.4em;
+}
+
+h3{
+  font-size: 1.6em;
 }
 
 .login input {
