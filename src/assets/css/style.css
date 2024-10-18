@@ -37,7 +37,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  width: 50%;
+  width: 55%;
   height: 70%;
 
   gap: 15px;
@@ -53,20 +53,34 @@ body {
 
 .login input {
   padding: 10px;
-  background-color: #F7FAFC;
+  background-color: #E8E8E8;
 }
 
 .login form input::placeholder {
-  color: #1E9E6A;
+  color: #656769;
+}
+
+.login input[type="checkbox"] {
+  appearance: none;
+  border-radius: 50%;
+  margin-right: 0px;
+}
+
+.login form input[type="checkbox"]:checked {
+  background-color: #656769;
 }
 
 .reset-password {
   display: flex;
-  justify-content: space-between;
   margin: 10px;
 }
 
+.reset-password p{
+  margin-left: 10px;  
+} 
+
 .reset-password a {
+  margin-left: 30px;
   text-decoration: none;
   color: #1E9E6A;
 }
