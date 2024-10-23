@@ -1,6 +1,6 @@
 <h1 align="center">Desafio FrontEnd</h1>
 
-<img src="./src/assets/images/svg.png" width="400px">
+<img src="./src/assets/images/svg.png">
 
 Objetivo:
 =========
